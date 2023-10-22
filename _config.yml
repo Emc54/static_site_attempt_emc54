@@ -29,7 +29,7 @@ url: "https://emc54.github.io" # the base hostname & protocol for your site, e.g
 github_username:  Emc54 # github sites version
 
 # Build settings
-theme: jekyll-theme-chirpy
+remote-theme: cotes2020/jekyll-theme-chirpy@v6.2.3
 plugins:
   - jekyll-feed
 
