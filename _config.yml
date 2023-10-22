@@ -32,7 +32,7 @@ github_username:  Emc54 # github sites version
 remote-theme: cotes2020/jekyll-theme-chirpy@v6.2.3
 plugins:
   - jekyll-feed
-
+  - jekyll-remote-theme
 # Chirpy Settings
 lang: en
 timezone: Europe/London
