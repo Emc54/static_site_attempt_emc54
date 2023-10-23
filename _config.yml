@@ -29,10 +29,11 @@ url: "https://emc54.github.io" # the base hostname & protocol for your site, e.g
 github_username:  Emc54 # github sites version
 
 # Build settings
-remote-theme: cotes2020/jekyll-theme-chirpy@v6.2.3
+theme: jekyll-theme-chirpy
+#remote-theme: cotes2020/jekyll-theme-chirpy@v6.2.3
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 # Chirpy Settings
 lang: en
 timezone: Europe/London
