@@ -13,21 +13,23 @@ cp -a _site/. ../compiled_site/
 cd ..
 
 # Update the gitignore to the one from gh-pages
-rm .gitignore
-mv gitignore_gh_pages .gitignore
+mv gitignore_gh_pages ./compiled_site/.gitignore
+touch ./compiled_site/.nojekyll
 
 # Stash all these changes to pop into the gh-pages branch
+git add -f compiled_site/* 
 git stash
 git checkout gh-pages
 git stash pop
 
 #Extract the site from its folder
-mv -R compiled_site/* ./
+mv compiled_site/* ./
+rm -r compiled_site
 
 # Commit and push
-# git add .
-# git commit -m "Site Update - Automatically from main"
+git add .
+git commit -m "Site Update - Automatically from main"
 # git push
 
 # Switch back to main branch
-# git checkout main
+git checkout main
