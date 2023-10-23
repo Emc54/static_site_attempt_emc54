@@ -29,7 +29,7 @@ rm -r compiled_site
 # Commit and push
 git add .
 git commit -m "Site Update - Automatically from main"
-# git push
+git push
 
 # Switch back to main branch
 git checkout main
