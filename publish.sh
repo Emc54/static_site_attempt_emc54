@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/bash
 
 #Script to be run after a commit and push in main to build and publish the site on gh-pages
 
